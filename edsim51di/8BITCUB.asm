@@ -1,0 +1,11 @@
+		MOV R0,#00H
+		MOV A,R1
+		MOV B,R1
+		MUL AB
+		MOV R2,B
+		MOV B,R1
+		MUL AB
+		MOV R4,A
+		MOV R3,B
+
+HERE:	SJMP HERE

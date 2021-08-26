@@ -1,0 +1,8 @@
+		MOV R0,#00H
+		MOV A,R1
+		MOV B,R2
+		DIV AB
+		MOV R3,A
+		MOV R4,B
+
+HERE:	SJMP HERE
